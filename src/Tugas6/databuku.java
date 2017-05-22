@@ -19,6 +19,7 @@ import javax.swing.table.DefaultTableModel;
  * @author heriaditia
  */
 public class databuku extends javax.swing.JFrame {
+    
 
     /**
      * Creates new form databuku

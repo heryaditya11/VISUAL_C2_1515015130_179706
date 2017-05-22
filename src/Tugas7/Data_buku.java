@@ -525,7 +525,6 @@ public class Data_buku extends javax.swing.JFrame {
         // TODO add your handling code here:
         try{
             int baris = jTable2.getSelectedRow();//mendekarasikan variabel baris sesuai data yang dipilih di tabel
-        
         String id = jTable2.getValueAt(baris, 0).toString();//mendeklarasikan variabel id yang bernilai dari baris ke-0 dari tabel yang dikonversi ke string
         String judul = jTextField1.getText();//mendeklarasikan judul sesuai dengan textfield Judul
         String penulis = pilihan.getSelectedItem().toString();//mendeklarasikan penulis sesuai dengan comobox Penulis
